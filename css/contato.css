@@ -1,0 +1,130 @@
+@import url(./style.css);
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px
+}
+
+h1 {
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px
+}
+
+.contato{
+    width: 470px;
+}
+
+
+.contato form input {
+    /*dois primeiros*/
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+.contato form textarea {
+    /*msg area*/
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 100%;
+    padding: 15px 30px 200px 30px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+}
+
+.botao {
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #FF4081;
+    width: 150px;
+    text-align: center;
+}
+
+.botao a {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 480px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .img-contato{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+    footer img {
+        width: 50%;
+    }
+
+    .img-contato{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width:1025px) {
+    .img-contato{
+        display: none;
+    }
+}

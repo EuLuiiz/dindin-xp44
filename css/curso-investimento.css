@@ -1,0 +1,154 @@
+@import url(./style.css);
+
+.banner-home {
+    width: 500px;
+}
+
+.banner-home h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.banner-home p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content {
+    padding: 50px 70px 40px 70px;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.aula {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video {
+    padding: 25px;
+}
+
+.descricao {
+    width: 500px;
+    padding: 25px;
+}
+
+.descricao h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.descricao p {
+    font-size: 18px;
+    font-weight: 300;
+}
+#img-banner img{
+    width: 400px;
+}
+
+.linha {
+    width: 100%;
+    height: 3px;
+    background-color: #C4C4C4;
+}
+iframe{
+    width:420px ;
+    height: 236px;
+}
+
+
+
+@media screen and (max-width: 480px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .banner-home{
+        text-align: center;
+    }
+    .banner-home h1{
+        font-size: 40px;
+    }
+    #img-banner img{
+        width: 300px;
+    }
+    iframe{
+        width: 320px;
+        height: 180px;
+    }
+    .content{
+        padding: 40px 0px;
+    }
+    .aula{
+        flex-direction: column;
+    }
+    .descricao{
+        width: 380px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+    footer img {
+        width: 50%;
+    }
+
+
+    .content{
+        padding: 40px 0px;
+    }
+    .aula{
+        flex-direction: column;
+    }
+    .descricao{
+        width: 380px;
+    }
+    .content{
+        align-items: center;
+    }
+    .aula{
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}

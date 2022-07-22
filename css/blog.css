@@ -1,0 +1,123 @@
+@import url(./style.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 47px;
+    font-weight: 700;
+    color: #009688;
+}
+
+.banner-home {
+    width: 400px;
+}
+#image-banner img{
+    width: 400px;
+}
+
+.content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.anuncio {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 20px;
+}
+
+.anuncio h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FF4081;
+    padding: 10px 0px
+}
+
+.anuncio p {
+    font-size: 11px;
+    font-weight: 300;
+    color: black;
+}
+
+.retangle {
+    height: 200px;
+    background-color: #C4C4C4;
+}
+
+.anuncio:hover {
+    transform: scale(1.2);
+    transition: all 300ms ease-out;
+}
+
+@media screen and (max-width: 480px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .banner-home{
+        text-align: center;
+    }
+    #image-banner img{
+        width: 300px;
+    }
+    .anuncio{
+        margin: 40px 10px;
+        padding: 20px 0px;
+        width: 300px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+    footer img {
+        width: 50%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}

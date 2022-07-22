@@ -1,0 +1,223 @@
+@import url(./style.css);
+
+.container3 {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.banner-home {
+    width: 250px;
+    margin: 0px 50px 0px 0px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 370px;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+
+.article span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF4081;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+
+.comment {
+    display: flex;
+    width: 550px;
+    height: 150px;
+
+}
+
+.icon-comment {
+    padding: 0px 30px;
+}
+
+.tittle-about h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 400;
+    padding: 80px;
+}
+
+.tittle-about2 h2 {
+    color: #009688;
+    font-size: 37px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+.anuncio {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.anuncio span {
+    font-size: 27px;
+    font-weight: 700;
+    color: #009688;
+}
+
+.retangule {
+    width: 300px;
+    height: 150px;
+    background: #C4C4C4;
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 47px;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    #image-banner img {
+        max-width: 250px;
+        justify-content: center;
+        padding: 20px 0px;
+    }
+    .container1{
+        align-items: center;
+        margin: 0px;
+    }
+    .banner-home{
+        margin: 0;
+        text-align: center;
+    }
+    .banner-home h1{
+        font-size: 30px;
+    }
+    .botao1 {
+        margin:0px;
+        width: auto;
+    }
+
+    .article {
+        margin: 35px;
+    }
+
+    .container1 {
+        padding: 20px;
+    }
+
+    .article{
+        margin: 30px 0px;
+    }
+
+    .comment {
+        width: 280px;
+        height: auto;
+        margin: 25px;
+    }
+
+    .icon-comment{
+        padding: 10px;
+    }
+
+    .comment img {
+        width: 75px;
+    }
+
+    .comment p {
+        font-size: 12px;
+    }
+
+    .tittle-about h2 {
+        padding: 30px;
+        font-size: 25px;
+    }
+
+    .tittle-about2 h2 {
+        padding: 30px;
+        font-size: 25px;
+    }
+
+    .anuncio {
+        width: 250px;
+    }
+    .anuncio span{
+        font-size: 24px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    footer img {
+        width: 50%;
+    }
+
+    .comment{
+        width: 450px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .botoes-footer {
+        flex-wrap: wrap;
+    }
+    .menu-nav-footer ul {
+        display: flex;
+        list-style: none;
+    }
+    .menu-nav-footer ul li{
+        padding: 10px;
+    }
+    .menu-nav-footer {
+        font-size: 20px;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+}
