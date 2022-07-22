@@ -82,6 +82,10 @@ h1 {
         padding: 20px 0px;
         width: 300px;
     }
+    .container1{
+        padding: 50px 25px;
+    }
+    
 
     footer{
         flex-direction: column;

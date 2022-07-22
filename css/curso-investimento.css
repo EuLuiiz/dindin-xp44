@@ -70,6 +70,7 @@ iframe{
     }
 
     .banner-home{
+        padding-bottom: 30px;
         text-align: center;
     }
     .banner-home h1{
@@ -90,6 +91,9 @@ iframe{
     }
     .descricao{
         width: 380px;
+    }
+    .container1{
+        padding: 50px 25px;
     }
 
     footer{
