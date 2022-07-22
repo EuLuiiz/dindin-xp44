@@ -64,9 +64,15 @@ h1 {
         justify-content: center;
         margin-bottom: 25px;
     }
-
+    .anuncio:hover{
+        transform: none;
+        transition: none;
+    }
     .banner-home{
         text-align: center;
+    }
+    .banner-home h1{
+        font-size: 25px;
     }
     #image-banner img{
         width: 300px;

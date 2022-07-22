@@ -141,7 +141,7 @@ p {
     .comment {
         width: 280px;
         height: auto;
-        margin: 25px;
+        margin: 20px;
     }
 
     .icon-comment{
@@ -155,19 +155,22 @@ p {
     .comment p {
         font-size: 12px;
     }
-
+    .tittle-about{
+        text-align: center;
+    }
     .tittle-about h2 {
-        padding: 30px;
-        font-size: 25px;
+        padding: 30px 10px;
+        font-size: 20px;
     }
 
     .tittle-about2 h2 {
-        padding: 30px;
-        font-size: 25px;
+        padding: 30px 10px;
+        font-size: 20px;
     }
 
     .anuncio {
         width: 250px;
+        margin: 30px;
     }
     .anuncio span{
         font-size: 24px;

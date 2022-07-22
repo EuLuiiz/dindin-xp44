@@ -73,6 +73,16 @@ h6 {
         height: 200px;
     }
 
+    .tittle-post h1{
+        font-size: 30px;
+    }
+    .container2{
+        text-align: center;
+    }
+    .container2 h1{
+        font-size: 25px;
+    }
+
     footer{
         flex-direction: column;
     }

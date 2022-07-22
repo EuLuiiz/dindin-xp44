@@ -74,12 +74,25 @@
         justify-content: center;
         margin-bottom: 25px;
     }
-
+    .content-cursos{
+        padding: 0px 50px 40px 50px;;
+    }
+    .conteudo h2, .imagem{
+        align-items: center;
+        text-align: center;
+    }
+    .cursos{
+        align-items: center;
+    }
+    .cursos h2{
+        font-size: 30px;
+    }
     .titulo{
         text-align: center;
     }
     .imagem img{
-        width: 250px;
+        width: 170px;
+        padding: 0px;
     }
     .conteudo{
         flex-direction: column;

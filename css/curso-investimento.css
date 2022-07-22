@@ -73,7 +73,7 @@ iframe{
         text-align: center;
     }
     .banner-home h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     #img-banner img{
         width: 300px;
@@ -110,6 +110,19 @@ iframe{
         padding: 20px;
         justify-content: flex-end;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .aula{
+        padding: 20px 0px;
+    }
+    .video{
+        padding: 0px;
+    }
+    .descricao{
+        width: 300px;
+    }
+     
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px){
